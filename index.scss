@@ -1,0 +1,158 @@
+$secondary-color: #125688;
+
+@import "node_modules/materialize-css/sass/materialize.scss";
+
+body {
+  background: #fafafa;
+  color: $secondary-color;
+  font-family: Montserrat;
+}
+
+.landing {
+  margin: 30px auto;
+}
+
+.iphone {
+  max-width: 100%;
+}
+
+.site-footer {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.login-box,
+.signup-box {
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid #edeeee;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.platzigram {
+  color: $secondary-color !important;
+  font-family: 'Oleo Script';
+  font-size: 42px;
+}
+
+.signup-form {
+  margin: 0 auto;
+  width: 65%;
+}
+
+.signup-form h2 {
+  color: #a5a7aa;
+  font-size: 1.2em;
+}
+
+.signup-form .btn.btn-fb {
+  background-color: #4090db;
+  font-size: .8em;
+}
+
+.signup-form .btn.btn-fb:hover {
+  background-color: #2d6599;
+}
+
+.signup-form .btn.btn-signup {
+  background-color: $secondary-color;
+}
+
+.header {
+  background-color: white;
+  border-bottom: 1px solid #edeeee;
+  box-shadow: none;
+  color: $secondary-color;
+
+  .dropdown-user {
+    height: 64px;
+    line-height: 64px;
+  }
+}
+
+.dropdown-button:hover {
+  color: white;
+}
+
+.timeline {
+  padding: 30px 0;
+}
+
+$avatar-size: 48px;
+
+.avatar {
+  border-radius: 50%;
+  float: left;
+  height: $avatar-size;
+  margin-right: 12px;
+  width: $avatar-size;
+}
+
+.card .username {
+  color: $secondary-color;
+}
+
+.card small.time {
+  line-height: $avatar-size;
+}
+
+.card p {
+  padding: 20px 0;
+}
+
+.card .likes {
+  line-height: 30px;
+  margin-left: 12px;
+}
+
+.card i {
+  font-size: 30px;
+}
+
+.card .fa-heart-o {
+  color: $secondary-color;
+}
+
+.card .fa-heart {
+  color: #f44336;
+  display: none;
+}
+
+.card.liked {
+  .fa-heart {
+    display: block;
+  }
+
+  .fa-heart-o {
+    display: none;
+  }
+}
+
+.form-upload {
+
+  span, button {
+    color: white;
+  }
+
+  .fileUpload {
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+
+    input {
+      bottom: 0;
+      cursor: pointer;
+      filter: alpha(opacity=0);
+      font-size: 20px;
+      height: 100%;
+      margin: 0;
+      opacity: 0;
+      padding: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 100%;
+    }
+  }
+}
